@@ -20,7 +20,7 @@ public class UserServlet extends HttpServlet {
         writer.write("<ul>");
         name.stream()
                 .limit(counter)
-                .forEach(e -> writer.write("<li>" + e + "<li>"));
+                .forEach(e -> writer.write("<li>" + e + "</li>"));
         writer.write("</ul>");
         writer.write("</h1>");
     }
